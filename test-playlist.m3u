@@ -1,0 +1,18 @@
+#EXTM3U
+# TileIPTV test playlist for app review. Public test streams only:
+# Apple, Akamai, Unified Streaming and Google Shaka demo streams, and the open movies
+# Big Buck Bunny and Tears of Steel (Blender Foundation, Creative Commons Attribution).
+#EXTINF:-1 tvg-id="test.live1" tvg-name="Live Test 1" group-title="Live tests",Live Test 1
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:-1 tvg-id="test.live2" tvg-name="Live Test 2" group-title="Live tests",Live Test 2
+https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8
+#EXTINF:-1 tvg-id="test.bbb" tvg-name="Big Buck Bunny" group-title="Open movies",Big Buck Bunny
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 tvg-id="test.tos" tvg-name="Tears of Steel" group-title="Open movies",Tears of Steel
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-id="test.angel" tvg-name="Angel One" group-title="Open movies",Angel One
+https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8
+#EXTINF:-1 tvg-id="test.bipbop" tvg-name="Bip Bop (Apple)" group-title="Test patterns",Bip Bop (Apple)
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
+#EXTINF:-1 tvg-id="test.bipbopadv" tvg-name="Bip Bop Advanced (Apple)" group-title="Test patterns",Bip Bop Advanced (Apple)
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
